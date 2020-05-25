@@ -1,0 +1,30 @@
+<kie-server-state>
+  <controllers>
+    <string>http://rhpam7-install-rhpamcentr-rhpam7-install-opentlc-mgr.apps.florida-696e.openshiftworkshop.com/rest/controller</string>
+  </controllers>
+  <configuration>
+    <configItems>
+      <config-item>
+        <name>org.kie.server.controller</name>
+        <value>http://rhpam7-install-rhpamcentr-rhpam7-install-opentlc-mgr.apps.florida-696e.openshiftworkshop.com/rest/controller</value>
+        <type>java.lang.String</type>
+      </config-item>
+      <config-item>
+        <name>org.kie.server.id</name>
+        <value>business-application-service</value>
+        <type>java.lang.String</type>
+      </config-item>
+      <config-item>
+        <name>org.kie.server.location</name>
+        <value>https://kie-app.cfapps.io/rest/server</value>
+        <type>java.lang.String</type>
+      </config-item>
+      <config-item>
+        <name>org.kie.server.bypass.auth.user</name>
+        <value>true</value>
+        <type>java.lang.String</type>
+      </config-item>
+    </configItems>
+  </configuration>
+  <containers/>
+</kie-server-state>
